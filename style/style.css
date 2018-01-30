@@ -1,0 +1,59 @@
+#container{
+  background: #e3e3e3;
+  overflow : hidden;
+}
+
+#secondary1, #secondary2{
+  background: gray;
+  text-align : center;
+}
+
+#mainContent{
+  background: gray;
+}
+
+#header, #footer{
+  background : #536c70;
+}
+
+#col1, #col2{
+  background: orange;
+}
+
+#secondary1 p,
+#secondary2 p,
+#mainContent p{
+  padding : 1em;
+}
+
+#nameText{
+  margin-left: 0;
+  font-size: 3em;
+  color : #0dc6e2;
+}
+
+#welcomeMessage{
+  font-size : 2em;
+  color : #bdbebf;
+}
+
+#logo{
+  margin-right: 0;
+}
+
+#footerMessage{
+  text-align : center;
+  color : white;
+}
+
+a{
+  color : white;
+}
+
+#titleBar{
+  text-align : center;
+  color : #0dc6e2;
+}
+#photoMessage{
+  padding-top : 0px;
+}

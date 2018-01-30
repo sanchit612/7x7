@@ -30,6 +30,7 @@
   margin-left: 0;
   font-size: 3em;
   color : #0dc6e2;
+  font-family: Arial,sans-serif;
 }
 
 #welcomeMessage{
@@ -46,14 +47,33 @@
   color : white;
 }
 
-a{
+#prior{
   color : white;
 }
 
 #titleBar{
   text-align : center;
-  color : #0dc6e2;
+  color : #0fdd2b;
+  font-size : 14pt;
 }
 #photoMessage{
-  padding-top : 0px;
+  padding-top : 0px !important;
+  font-size : 10pt !important;
+  color: #0b66a0;
+}
+
+#matter{
+  text-align : center;
+  height : 100%;
+}
+
+#stuff{
+  font-size: 20pt;
+}
+
+#inside{
+  color : #0b66a0;
+}
+#player{
+  width : 80%;
 }

@@ -4,12 +4,16 @@
 }
 
 #secondary1, #secondary2{
-  background: gray;
+  background: #bcbfc4;
   text-align : center;
 }
 
+#col1{
+  text-align: center;
+}
+
 #mainContent{
-  background: gray;
+  background: #bcbfc4;
 }
 
 #header, #footer{
@@ -53,7 +57,7 @@
 
 #titleBar{
   text-align : center;
-  color : #0fdd2b;
+  color : #ffffff;
   font-size : 14pt;
 }
 #photoMessage{

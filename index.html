@@ -1,201 +1,253 @@
 <!doctype html>
 <html>
-  <head>
-    <title> My Website </title>
-    <meta charset = "UTF-8">
-    <link rel = "stylesheet" href = "style/style.css">
-    <link rel = "stylesheet" href = "style/960/960.css">
-    <link rel = "stylesheet" href = "style/960/text.css">
-    <link rel = "stylesheet" href = "style/960/reset.css">
-  </head>
 
-  <body>
-    <div id = "container" class = "container_12">
-      <div id = "header" class = "grid_12">
-        <div id = "logo" class = "grid_2 alpha" >
-          <img src = "images/logo.jpg" alt = "logo" height = "80px" width = "100px" >
+<head>
+  <title> 7BY7 | Welcome </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style/style.css">
+  <!--my style sheet -->
+
+  <!--960 grid style sheets -->
+  <link rel="stylesheet" href="style/960/960.css">
+  <link rel="stylesheet" href="style/960/text.css">
+  <link rel="stylesheet" href="style/960/reset.css">
+</head>
+
+<body>
+
+  <!-- choosing the cnumber of grids - 12 in this case -->
+  <div id="container" class="container_12">
+
+    <!-- start header -->
+    <div id="header" class="grid_12">
+
+      <div id="logo" class="grid_2 alpha">
+        <img src="images/logo.jpg" alt="logo" height="80px" width="100px">
+      </div>
+
+      <div id="name" class="grid_6 beta">
+        <span id="nameText">7BY7</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="welcomeMessage"><em>"Home of Artists"</em></span>
+      </div>
+
+      <div id="map" class="grid_4 omega">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a id="prior" href="index.html"> Home</a>&nbsp;|
+        <a id="prior" href="about.html"> About Us</a>&nbsp;|
+        <a id="prior" href="live.html"> Live</a>&nbsp;|
+        <a id="prior" href="contact.html"> Contact </a>
+      </div>
+
+    </div>
+    <!--end header -->
+
+    <!-- secondary1 column start-->
+    <div id="secondary1" class="grid_3">
+      <!-- specifying the grids for secondary1-->
+      <div id="titleBar"><p>Latest Episodes</p></div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <img src="images/random1.jpg" alt="image1" height="120px" width="180px"><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> This is what happens after Dan and his co-hosts hit "STOP" and their official shows are over. </p>
+        </a>
+      </div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <img src="images/random2.jpg" alt="image2" height="120px" width="180px"><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p>
+        </a>
+      </div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <img src="images/random3.jpg" alt="image3" height="120px" width="180px"><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p>
+        </a>
+      </div>
+
+    </div>
+    <!--end secondary1 -->
+
+    <!-- secondary2 column start-->
+    <div id="secondary2" class="grid_3">
+      <p id="titleBar">Live Shows</p>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <audio id="player" controls>
+              <source src="audio/sample.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> This is what happens after Dan and his co-hosts hit "STOP" and their official shows are over. </p>
+        </a>
+      </div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <audio id="player" controls>
+              <source src="audio/sample.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p>
+        </a>
+      </div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <audio id="player" controls>
+              <source src="audio/sample.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p>
+        </a>
+      </div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <audio id="player" controls>
+              <source src="audio/sample.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p>
+        </a>
+      </div>
+
+      <div id="cardBox">
+        <div id="Photo">
+          <audio id="player" controls>
+              <source src="audio/sample.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio><br>
+        </div>
+        <a id="inside" href="file.html" target="_blank">
+          <p id="photoMessage"> Lorem Ipsum is simpypesetting industry. Lorem Ipsum has been the industry. </p>
+        </a>
+      </div>
+
+    </div>
+    <!--end secondary2 -->
+
+    <!--start main column -->
+    <div id="mainContent" class="grid_6">
+      <p id="titleBar">News</p>
+
+      <div id="channel">
+        <marquee class="example1" behavior="alternate" direction="up" height="350px" scrollamount="2">
+          <ul>
+            <li><a href="news.html" target="_blank"> The standard chunk of Lorem Ipsum used since the 1500s is  </a></li>
+            <li><a href="news.html" target="_blank"> passage, and going through the cites of the word in classical  </a></li>
+            <li><a href="news.html" target="_blank"> comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum </a></li>
+            <li><a href="news.html" target="_blank"> Contrary to popular belief, Lorem Ipsum is not simply random text.  </a></li>
+            <li><a href="news.html" target="_blank"> tend to repeat predefined chunks as necessary, making this the   </a></li>
+            <li><a href="news.html" target="_blank"> but the majority have suffered alteration in some form, by injected  </a></li>
+            <li><a href="news.html" target="_blank"> Latin words, combined with a handful of model sentence  </a></li>
+            <li><a href="news.html" target="_blank"> It has roots in a piece of classical Latin literature from 45 BC,  </a></li>
+            <li><a href="news.html" target="_blank"> Ipsum passages, and more recently with desktop publishing  </a></li>
+            <li><a href="news.html" target="_blank"> readable content of a page when looking at its layout. The point of  </a></li>
+            <li><a href="news.html" target="_blank"> The standard chunk of Lorem Ipsum used since the 1500s is  </a></li>
+            <li><a href="news.html" target="_blank"> passage, and going through the cites of the word in classical  </a></li>
+            <li><a href="news.html" target="_blank"> comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum </a></li>
+            <li><a href="news.html" target="_blank"> Contrary to popular belief, Lorem Ipsum is not simply random text.  </a></li>
+            <li><a href="news.html" target="_blank"> tend to repeat predefined chunks as necessary, making this the   </a></li>
+            <li><a href="news.html" target="_blank"> but the majority have suffered alteration in some form, by injected  </a></li>
+            <li><a href="news.html" target="_blank"> Latin words, combined with a handful of model sentence  </a></li>
+            <li><a href="news.html" target="_blank"> It has roots in a piece of classical Latin literature from 45 BC,  </a></li>
+            <li><a href="news.html" target="_blank"> Ipsum passages, and more recently with desktop publishing  </a></li>
+            <li><a href="news.html" target="_blank"> readable content of a page when looking at its layout. The point of  </a></li>
+          </ul>
+        </marquee>
+      </div>
+
+      <!-- dividing into two new columns -->
+      <!--start first sub main column -->
+      <div id="col1" class="grid_2 alpha">
+        <p id="titleBar">Share</p>
+
+        <div id="cardBox">
+          <div id="Photo">
+            <img src="images/facebook.png" alt="fb" height="25px" width="25px"><br>
+          </div>
+          <a id="inside" href="" target="_blank">
+            <p id="photoMessage"> Facebook </p>
+          </a>
         </div>
 
-        <div id = "name" class = "grid_6 beta" >
-          <span id = "nameText">7BY7</span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span id = "welcomeMessage"><em>"Home of Artists"</em></span>
-        </div>
-        <div id = "map" class = "grid_4 omega" >
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <a id = "prior" href = "index.html"> Home</a>&nbsp;|
-          <a id = "prior" href = "about.html"> About Us</a>&nbsp;|
-          <a id = "prior" href = "live.html"> Live</a>&nbsp;|
-          <a id = "prior" href = "contact.html"> Contact </a>
-        </div>
-      </div> <!--end header -->
-
-      <div id = "secondary1" class = "grid_3">
-        <p id = "titleBar">Latest Episodes</p>
-          <div id = "cardBox">
-            <div id = "Photo">
-              <img src = "images/random1.jpg" alt = "image1" height = "120px" width = "180px"><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> This is what happens after Dan and his co-hosts hit "STOP" and their official shows are over. </p></a>
+        <div id="cardBox">
+          <div id="Photo">
+            <img src="images/twitter.png" alt="twitter" height="25px" width="25px"><br>
           </div>
-
-          <div id = "cardBox">
-            <div id = "Photo">
-              <img src = "images/random2.jpg" alt = "image2" height = "120px" width = "180px"><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p></a>
-          </div>
-
-          <div id = "cardBox">
-            <div id = "Photo">
-              <img src = "images/random3.jpg" alt = "image3" height = "120px" width = "180px"><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p></a>
-          </div>
-      </div> <!--end secondary1 -->
-
-
-      <div id = "secondary2" class = "grid_3">
-        <p id = "titleBar">Live Shows</p>
-          <div id = "cardBox">
-            <div id = "Photo">
-              <audio id = "player" controls>
-                <source src="audio/sample.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> This is what happens after Dan and his co-hosts hit "STOP" and their official shows are over. </p></a>
-          </div>
-
-          <div id = "cardBox">
-            <div id = "Photo">
-              <audio id = "player" controls>
-                <source src="audio/sample.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p></a>
-          </div>
-
-          <div id = "cardBox">
-            <div id = "Photo">
-              <audio id = "player" controls>
-                <source src="audio/sample.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p></a>
-          </div>
-
-          <div id = "cardBox">
-            <div id = "Photo">
-              <audio id = "player" controls>
-                <source src="audio/sample.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </p></a>
-          </div>
-
-          <div id = "cardBox">
-            <div id = "Photo">
-              <audio id = "player" controls>
-                <source src="audio/sample.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-              </audio><br>
-            </div>
-            <a id = "inside" href = "file.html" target = "_blank"><p id = "photoMessage"> Lorem Ipsum is simpypesetting industry. Lorem Ipsum has been the industry. </p></a>
-          </div>
-
-
-      </div> <!--end secondary2 -->
-
-      <div id = "mainContent" class = "grid_6">
-        <p id = "titleBar">News</p>
-          <div>
-            <div id = "channel">
-                <marquee class = "example1" behavior="alternate" direction="up" height = "350px" scrollamount="2">
-                  <ul>
-                    <li><a href = "news.html" target = "_blank"> The standard chunk of Lorem Ipsum used since the 1500s is  </a></li>
-                    <li><a href = "news.html" target = "_blank"> passage, and going through the cites of the word in classical  </a></li>
-                    <li><a href = "news.html" target = "_blank"> comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum </a></li>
-                    <li><a href = "news.html" target = "_blank"> Contrary to popular belief, Lorem Ipsum is not simply random text.  </a></li>
-                    <li><a href = "news.html" target = "_blank"> tend to repeat predefined chunks as necessary, making this the   </a></li>
-                    <li><a href = "news.html" target = "_blank"> but the majority have suffered alteration in some form, by injected  </a></li>
-                    <li><a href = "news.html" target = "_blank"> Latin words, combined with a handful of model sentence  </a></li>
-                    <li><a href = "news.html" target = "_blank"> It has roots in a piece of classical Latin literature from 45 BC,  </a></li>
-                    <li><a href = "news.html" target = "_blank"> Ipsum passages, and more recently with desktop publishing  </a></li>
-                    <li><a href = "news.html" target = "_blank"> readable content of a page when looking at its layout. The point of  </a></li>
-                    <li><a href = "news.html" target = "_blank"> The standard chunk of Lorem Ipsum used since the 1500s is  </a></li>
-                    <li><a href = "news.html" target = "_blank"> passage, and going through the cites of the word in classical  </a></li>
-                    <li><a href = "news.html" target = "_blank"> comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum </a></li>
-                    <li><a href = "news.html" target = "_blank"> Contrary to popular belief, Lorem Ipsum is not simply random text.  </a></li>
-                    <li><a href = "news.html" target = "_blank"> tend to repeat predefined chunks as necessary, making this the   </a></li>
-                    <li><a href = "news.html" target = "_blank"> but the majority have suffered alteration in some form, by injected  </a></li>
-                    <li><a href = "news.html" target = "_blank"> Latin words, combined with a handful of model sentence  </a></li>
-                    <li><a href = "news.html" target = "_blank"> It has roots in a piece of classical Latin literature from 45 BC,  </a></li>
-                    <li><a href = "news.html" target = "_blank"> Ipsum passages, and more recently with desktop publishing  </a></li>
-                    <li><a href = "news.html" target = "_blank"> readable content of a page when looking at its layout. The point of  </a></li>
-
-
-                  </ul>
-                </marquee>
-            </div>
-
-          </div>
-
-        <div id = "col1" class = "grid_2 alpha">
-          <p id = "titleBar">Share</p>
-          <div id = "cardBox">
-            <div id = "Photo">
-              <img src = "images/facebook.png" alt = "fb" height = "25px" width = "25px"><br>
-            </div>
-            <a id = "inside" href = "" target = "_blank"><p id = "photoMessage"> Facebook </p></a>
-          </div>
-          <div id = "cardBox">
-            <div id = "Photo">
-              <img src = "images/twitter.png" alt = "twitter" height = "25px" width = "25px"><br>
-            </div>
-            <a id = "inside" href = "" target = "_blank"><p id = "photoMessage"> Twitter </p></a>
-          </div>
-          <div id = "cardBox">
-            <div id = "Photo">
-              <img src = "images/googleplus.jpg" alt = "google" height = "25px" width = "25px"><br>
-            </div>
-            <a id = "inside" href = "" target = "_blank"><p id = "photoMessage"> Google+ </p></a>
-          </div>
+          <a id="inside" href="" target="_blank">
+            <p id="photoMessage"> Twitter </p>
+          </a>
         </div>
 
-        <div id = "col2" class = "grid_4 omega">
-          <p id = "titleBar">Suscribe to New Channels</p>
-            <div id = "channel">
-                <marquee class = "example1" behavior="alternate" direction="up" height = "168px" scrollamount="3">
-                  <ul>
-                    <li><a id = ""href = "channel.html" target = "_blank"> Asymcar </a></li>
-                     <li><a href = "channel.html" target = "_blank"> Back to Work </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Big Web Show </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Critical Path </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Diagnostics </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Killing Time </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Pipeline Classic </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Road Work </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Unwounded </a></li>
-                    <li><a href = "channel.html" target = "_blank"> Supercharged </a></li>
-                  </ul>
-                </marquee>
-            </div>
+        <div id="cardBox">
+          <div id="Photo">
+            <img src="images/googleplus.jpg" alt="google" height="25px" width="25px"><br>
+          </div>
+          <a id="inside" href="" target="_blank">
+            <p id="photoMessage"> Google+ </p>
+          </a>
         </div>
 
       </div>
+      <!--end first main column -->
 
-      <div id = "footer" class = "grid_12">
-        <span id = "footerMessage">
+      <!--start second sub main column -->
+
+      <div id="col2" class="grid_4 omega">
+        <p id="titleBar">Suscribe to New Channels</p>
+
+        <div id="channel">
+          <marquee class="example1" behavior="alternate" direction="up" height="168px" scrollamount="3">
+            <ul>
+              <li><a id="" href="channel.html" target="_blank"> Asymcar </a></li>
+              <li><a href="channel.html" target="_blank"> Back to Work </a></li>
+              <li><a href="channel.html" target="_blank"> Big Web Show </a></li>
+              <li><a href="channel.html" target="_blank"> Critical Path </a></li>
+              <li><a href="channel.html" target="_blank"> Diagnostics </a></li>
+              <li><a href="channel.html" target="_blank"> Killing Time </a></li>
+              <li><a href="channel.html" target="_blank"> Pipeline Classic </a></li>
+              <li><a href="channel.html" target="_blank"> Road Work </a></li>
+              <li><a href="channel.html" target="_blank"> Unwounded </a></li>
+              <li><a href="channel.html" target="_blank"> Supercharged </a></li>
+            </ul>
+          </marquee>
+        </div>
+      </div>
+
+      <!-- end second sub main column -->
+
+    </div>
+    <!--end main column -->
+
+    <!--start footer -->
+
+    <div id="footer" class="grid_12">
+      <span id="footerMessage">
           <p>
             7by7 makes podcasts for geeks, designers, developers, gamers, entrepreneurs, and people like you, with shows hosted by people including Dan Benjamin, Merlin Mann, Horace Dediu, and Jeffrey Zeldman.
           </p>
         </span>
 
-        <span id = "footerMessage">
+      <span id="footerMessage">
           <p>
            <a id = "prior" href = "index.html"> Home</a>&nbsp;|
            <a id = "prior" href = "about.html"> About Us</a>&nbsp;|
@@ -203,8 +255,11 @@
            <a id = "prior" href = "contact.html"> Contact </a>
           </p>
         </span>
-      </div>
     </div>
-  </body>
+    <!-- end footer -->
+
+  </div>
+  <!--end main container -->
+</body>
 
 </html>

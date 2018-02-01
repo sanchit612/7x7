@@ -1,83 +1,84 @@
-#container{
+#container {
   background: #e3e3e3;
-  overflow : hidden;
+  overflow: hidden;
 }
 
-#secondary1, #secondary2{
+#secondary1, #secondary2 {
   background: #bcbfc4;
-  text-align : center;
-}
-
-#col1{
   text-align: center;
 }
 
-#mainContent{
+#col1 {
+  text-align: center;
+}
+
+#mainContent {
   background: #bcbfc4;
 }
 
-#header, #footer{
-  background : #536c70;
+#header, #footer {
+  background: #536c70;
 }
 
-#col1, #col2{
+#col1, #col2 {
   background: #94bdcc;
 }
 
-#secondary1 p,
-#secondary2 p,
-#mainContent p{
-  padding : 1em;
+#secondary1 p, #secondary2 p, #mainContent p {
+  padding: 1em;
 }
 
-#nameText{
+#nameText {
   margin-left: 0;
   font-size: 3em;
-  color : #0dc6e2;
-  font-family: Arial,sans-serif;
+  color: #0dc6e2;
+  font-family: Arial, sans-serif;
 }
 
-#welcomeMessage{
-  font-size : 2em;
-  color : #bdbebf;
+#welcomeMessage {
+  font-size: 2em;
+  color: #bdbebf;
 }
 
-#logo{
+#logo {
   margin-right: 0;
 }
 
-#footerMessage{
-  text-align : center;
-  color : white;
+#footerMessage {
+  text-align: center;
+  color: white;
 }
 
-#prior{
-  color : white;
+#prior {
+  color: white;
 }
 
-#titleBar{
-  text-align : center;
-  color : #ffffff;
-  font-size : 14pt;
+#titleBar {
+  font-style: oblique;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14pt;
 }
-#photoMessage{
-  padding-top : 0px !important;
-  font-size : 10pt !important;
+
+#photoMessage {
+  padding-top: 0px !important;
+  font-size: 10pt !important;
   color: #0b66a0;
 }
 
-#matter{
-  text-align : center;
-  height : 100%;
+#matter {
+  text-align: center;
+  height: 100%;
 }
 
-#stuff{
+#stuff {
   font-size: 20pt;
 }
 
-#inside{
-  color : #0b66a0;
+#inside {
+  color: #0b66a0;
 }
-#player{
-  width : 80%;
+
+#player {
+  width: 80%;
 }

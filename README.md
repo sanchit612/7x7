@@ -1,2 +1,2 @@
 # 7BY7
-website in 960 grid
+This is a studio website designed using 960 grid. 
